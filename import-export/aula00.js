@@ -1,11 +1,4 @@
-export function hello(nome) {
-  return `Olá, ${nome}`;
-}
+// Como realizar importação de arquivos
+const funcoes = require("./funcoes-auxiliares.js");
 
-function main() {
-  const nome = "Vinicius";
-
-  console.log(hello(nome));
-}
-
-main();
+console.log(funcoes.gets());
